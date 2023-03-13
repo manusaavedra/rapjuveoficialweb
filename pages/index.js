@@ -12,11 +12,16 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.png" />
             </Head>
+            
             <main className='max-w-4xl overflow-x-hidden m-auto p-3 text-white'>
+            
                 <section className='text-white text-center flex flex-col justify-center items-center'>
                     <div className='pt-10 flex flex-col justify-center items-center'>
-                        <Image src="/camisetaoficial.png" width={160} height={60} alt="camiseta oficial" />
-                        <h1 className='text-4xl md:text-5xl font-bold my-4 uppercase'>El campamento juvenil más grande de Sudamérica</h1>
+                        <div className="flex flex-col gap-4 items-center">
+                            <Image src="/camisetaoficial.png" width={160} height={60} alt="camiseta oficial" />
+                            <Image src="/rapjuve-gradient.png?v=323" width={260} height={60} alt="rapjuve mi identidad es Jesus" />
+                        </div>
+                        <h1 className='text-4xl md:text4xl font-bold my-4 uppercase'>El campamento juvenil más grande de Sudamérica</h1>
                         <h4 className='md:text-2xl font-semibold italic'>¡Un campo de entrenamiento para la vida!</h4>
                     </div>
                     <div className='flex gap-4 items-center'>
@@ -34,18 +39,22 @@ export default function Home() {
                         </button>
                     </div>
                 </section>
+
                 <section id='rapjuve' className='my-[120px] text-center'>
                     <h4 className='uppercase text-4xl font-black text-transparent bg-clip-text bg-gradient-to-tl from-fuchsia-400 to-blue-400'>
                         del 6/9 ABRIL
                     </h4>
                     <p className='uppercase text-2xl font-semibold'>¡No te lo puedes perder!</p>
                 </section>
+
                 <section className='video p-4 mt-[80px] rounded-lg bg-transparent border-2 border-fuchsia-500'>
                     <iframe className='w-full rounded-lg aspect-video' src="https://www.youtube.com/embed/O0Q_FMbxH_c" title="CASA DE ORACION BOLIVIA RESUMEN RAPJUVE 2022" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </section>
+
                 <h4 id='activity' className='mt-[120px] mb-10 text-3xl md:text-4xl text-center font-extrabold uppercase text-transparent bg-clip-text bg-gradient-to-tl from-fuchsia-400 to-blue-400'>
                     invitados internacionales de distintas partes del mundo
                 </h4>
+
                 <section className='flex flex-col md:flex-row justify-between concierto'>
                     <div className='w-[100%] md:w-[50%]'>
                         <Image className='mx-auto' src="/barak.png" width={420} height={20} alt="barak en concierto" />
@@ -63,10 +72,12 @@ export default function Home() {
                         </button>
                     </div>
                 </section>
+
                 <h4 className='mt-[120px] mb-10 text-3xl md:text-4xl text-center font-extrabold uppercase text-transparent bg-clip-text bg-gradient-to-tl from-fuchsia-400 to-blue-400'>
                     Actividades
                 </h4>
-                <section className='flex justify-between concierto'>
+                
+                <section className='flex justify-between'>
                     <ActivityGallery />
                 </section>
                 
