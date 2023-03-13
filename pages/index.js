@@ -21,7 +21,7 @@ export default function Home() {
                             <Image src="/camisetaoficial.png" width={160} height={60} alt="camiseta oficial" />
                             <Image src="/rapjuve-gradient.png?v=323" width={260} height={60} alt="rapjuve mi identidad es Jesus" />
                         </div>
-                        <h1 className='text-4xl md:text4xl font-bold my-4 uppercase'>El campamento juvenil más grande de Sudamérica</h1>
+                        <h1 className='text-2xl md:text4xl font-bold my-4 uppercase'>El campamento juvenil más grande de Sudamérica</h1>
                         <h4 className='md:text-2xl font-semibold italic'>¡Un campo de entrenamiento para la vida!</h4>
                     </div>
                     <div className='flex gap-4 items-center'>
