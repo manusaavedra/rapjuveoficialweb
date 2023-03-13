@@ -4,8 +4,11 @@ import { FaInstagram, FaWhatsapp, FaFacebook, FaTshirt } from "react-icons/fa"
 
 export default function Header() {
     return (
-        <header className="w-full">
-            <div className="flex justify-end items-center bg-gradient-to-r from-[#282851] to-[#3f1754] w-full p-2">
+        <header className="w-full sticky top-0 left-0 z-50">
+            <div className="flex md:justify-end items-center bg-gradient-to-r from-[#282851] to-[#3f1754] w-full p-2">
+                <Link href="/">
+                    <Image className="md:hidden" src="/rapjuve-gradient.png?v=323" width={100} height={60} alt="rapjuve mi identidad es Jesus" />
+                </Link>
                 <nav className="px-4 hidden md:block">
                     <ul className="flex items-center gap-4 text-white">
                         <li>
@@ -26,18 +29,36 @@ export default function Header() {
                     </ul>
                 </nav>
             </div>
+            <div className="flex items-center bg-black justify-center md:hidden">
+                <ul className="flex items-center gap-4 py-4 text-white font-semibold text-xs">
+                    <li>
+                        <Link href="/#rapjuve">Sobre Rapjuve</Link>
+                    </li>
+                    <li>
+                        <Link href="/#activity">Actividades</Link>
+                    </li>
+                    <li>
+                        <Link href="/#faq">Más frecuentes</Link>
+                    </li>
+                    <li>
+                        <Link href={"/escuadrones"}>Clasificación</Link>
+                    </li>
+                </ul>
+            </div>
             <nav className="bg-black w-full items-start justify-between hidden md:flex">
                 <div className="flex items-start">
-                    <Image
-                        className="relative mt-[-30px]"
-                        src="/Mi-identidad-logo.png"
-                        width={120}
-                        height={120}
-                        alt="logo"
-                    />
+                    <Link href="/">
+                        <Image
+                            className="relative mt-[-30px]"
+                            src="/Mi-identidad-logo.png"
+                            width={120}
+                            height={120}
+                            alt="logo"
+                        />
+                    </Link>
                     <ul className="flex items-center gap-4 py-4 text-white font-semibold">
                         <li>
-                            <Link href="/#rapjuve">¿Que es Rapjuve?</Link>
+                            <Link href="/#rapjuve">Sobre Rapjuve</Link>
                         </li>
                         <li>
                             <Link href="/#activity">Actividades</Link>
@@ -46,7 +67,7 @@ export default function Header() {
                             <Link href="/#faq">Más frecuentes</Link>
                         </li>
                         <li>
-                            <Link href={"/escuadrones"}>Escuadrones</Link>
+                            <Link href={"/escuadrones"}>Clasificación</Link>
                         </li>
                     </ul>
                 </div>

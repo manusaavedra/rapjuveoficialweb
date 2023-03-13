@@ -2,19 +2,20 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <footer class="bg-black text-center p-4 text-white">
-            <div class="container px-6 pt-6 mx-auto">
+        <footer className="bg-black text-center p-4 text-white">
+            <div className="container px-6 pt-6 mx-auto">
                 <Image className="mx-auto mb-4" src="/Mi-identidad-logo.png" width={100} height={60} alt="mi identidad logo" />
-                <div class="flex justify-center">
+                <div className="flex justify-center">
                     <a
-                        href="#!"
+                        href="https://www.facebook.com/rapjuve/"
                         type="button"
-                        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+                        target="_blank"
+                        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                         data-te-ripple-init
                         data-te-ripple-color="light">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="mx-auto h-full w-4"
+                            className="mx-auto h-full w-4"
                             fill="currentColor"
                             viewBox="0 0 24 24">
                             <path
@@ -23,14 +24,15 @@ export default function Footer() {
                     </a>
 
                     <a
-                        href="#!"
+                        href="https://www.instagram.com/rapjuveoficial/"
                         type="button"
-                        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+                        target="_blank"
+                        className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                         data-te-ripple-init
                         data-te-ripple-color="light">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="mx-auto h-full w-4"
+                            className="mx-auto h-full w-4"
                             fill="currentColor"
                             viewBox="0 0 24 24">
                             <path
@@ -52,7 +54,7 @@ export default function Footer() {
             </div>
             <div className="p-4 text-center" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
                 © {new Date().getFullYear()} Copyright 
-                <a class="text-whitehite" href="https://tailwind-elements.com/"
+                <a className="text-whitehite" href="https://tailwind-elements.com/"
                 > Casa de Oración</a
                 >
             </div>
