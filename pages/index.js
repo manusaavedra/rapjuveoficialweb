@@ -65,7 +65,7 @@ export default function Home() {
                             <p className='text-xl'>Barak es una banda de música cristiana originaria de Santo Domingo, República Dominicana. El significado etimológicamente de Barak, cuyo nombre tiene su origen en el antiguo hebreo, en español es «Postrado en adoración».</p>
                         </div>
                         <button>
-                            <a href="https://api.whatsapp.com/send?phone=59175001584" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 rounded-md font-semibold bg-gradient-to-r from-[#462558] to-[#21092e] border-2 border-[#462558] text-white">
+                            <a href="https://spotify.link/Zl0NzzTU8xb" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 rounded-md font-semibold bg-gradient-to-r from-[#462558] to-[#21092e] border-2 border-[#462558] text-white">
                                 <FaSpotify size={24} />
                                 Escuchar
                             </a>
