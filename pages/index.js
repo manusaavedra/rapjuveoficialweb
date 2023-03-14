@@ -18,8 +18,8 @@ export default function Home() {
                 <section className='text-white text-center flex flex-col justify-center items-center'>
                     <div className='pt-10 flex flex-col justify-center items-center'>
                         <div className="flex flex-col gap-4 items-center">
-                            <Image src="/camisetaoficial.png" className='w-auto h-auto' width={160} height={60} alt="camiseta oficial" />
-                            <Image src="/rapjuve-gradient.png?v=323" className='w-auto h-auto'width={100} height={100} alt="rapjuve mi identidad es Jesus" />
+                            <Image src="/camisetaoficial.png" className='w-auto h-auto' priority width={160} height={60} alt="camiseta oficial" />
+                            <Image src="/rapjuve-gradient.png?v=323" className='w-auto h-auto' width={100} height={100} alt="rapjuve mi identidad es Jesus" />
                         </div>
                         <h1 className='text-2xl md:text4xl font-bold my-4 uppercase'>El campamento juvenil más grande de Sudamérica</h1>
                         <h4 className='md:text-2xl font-semibold italic'>¡Un campo de entrenamiento para la vida!</h4>
@@ -60,12 +60,10 @@ export default function Home() {
                             <h2 className='text-2xl font-bold my-4'>Grupo Barak</h2>
                             <p className='text-xl'>Barak es una banda de música cristiana originaria de Santo Domingo, República Dominicana. El significado etimológicamente de Barak, cuyo nombre tiene su origen en el antiguo hebreo, en español es «Postrado en adoración».</p>
                         </div>
-                        <button>
-                            <a href="https://api.whatsapp.com/send?phone=59175001584" title='Spotify Barak' target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 rounded-md font-semibold bg-gradient-to-r from-[#462558] to-[#21092e] border-2 border-[#462558] text-white">
-                                <FaSpotify size={24} />
-                                Escuchar
-                            </a>
-                        </button>
+                        <a href="https://api.whatsapp.com/send?phone=59175001584" title='Spotify Barak' target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 rounded-md font-semibold bg-gradient-to-r from-[#462558] to-[#21092e] border-2 border-[#462558] text-white">
+                            <FaSpotify size={24} />
+                            Escuchar
+                        </a>
                     </div>
                 </section>
 
