@@ -14,7 +14,6 @@ export default function Home() {
             </Head>
 
             <main className='max-w-4xl overflow-x-hidden m-auto p-3 text-white'>
-
                 <section className='text-white text-center flex flex-col justify-center items-center'>
                     <div className='pt-10 flex flex-col justify-center items-center'>
                         <div className="flex flex-col gap-4 items-center">
@@ -29,7 +28,7 @@ export default function Home() {
                             <FaTshirt size={24} />
                             Entradas
                         </a>
-                        <a href="http://rapjuve.com/wp-content/uploads/2023/03/DESLINDE-DE-RESPONSABILIDAD-RAPJUVE-2023.pdf" target="_blank" rel="noreferrer" className="flex mt-8 w-auto items-center gap-2 px-4 py-2 rounded-md font-semibold bg-gradient-to-r from-[#462558] to-[#21092e] border-2 border-[#462558] text-white">
+                        <a href="/documents/Deslinde_de_Responsabilidad_Rapjuve_2023.pdf" download target="_blank" rel="noreferrer" className="flex mt-8 w-auto items-center gap-2 px-4 py-2 rounded-md font-semibold bg-gradient-to-r from-[#462558] to-[#21092e] border-2 border-[#462558] text-white">
                             <FaFileDownload size={24} />
                             Deslinde
                         </a>
