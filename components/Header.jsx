@@ -29,22 +29,22 @@ export default function Header() {
                     </ul>
                 </nav>
             </div>
-            <div className="flex items-center bg-black justify-center md:hidden">
-                <ul className="flex items-center gap-4 py-4 text-white font-semibold text-xs">
-                    <li>
+            <nav className="flex items-center w-full bg-black justify-center md:hidden overflow-x-scroll scroll-m-0">
+                <ul className="flex items-center gap-4 justify-between py-4 px-2 text-white font-semibold text-md">
+                    <li className="min-w-fit">
                         <Link href="/#rapjuve">Sobre Rapjuve</Link>
                     </li>
-                    <li>
+                    <li className="min-w-fit">
                         <Link href="/#activity">Actividades</Link>
                     </li>
-                    <li>
+                    <li className="min-w-fit">
                         <Link href="/#faq">Más frecuentes</Link>
                     </li>
-                    <li>
+                    <li className="min-w-fit">
                         <Link href={"/escuadrones"}>Clasificación</Link>
                     </li>
                 </ul>
-            </div>
+            </nav>
             <nav className="bg-black w-full items-start justify-between hidden md:flex">
                 <div className="flex items-start">
                     <Link href="/">

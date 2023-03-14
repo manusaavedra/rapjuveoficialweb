@@ -6,6 +6,10 @@ body {
   overflow-x: hidden !important;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body .background {
   background: url('/background.jpg') #1d0f1d;
   background-blend-mode: darken;
