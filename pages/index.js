@@ -20,6 +20,8 @@ export default function Home() {
                 <meta property="twitter:title" content="Rapjuve - Campamento Juvenil Más Grande de Sudamérica. " />
                 <meta property="twitter:description" content="Rapjuve el campamento cristiano que reúne más de 5 mil jóvenes de distintas partes del mundo. Juegos Militares, carreras y plenarias son una de las actividades de este gran campamento." />
                 <meta property="twitter:image" content="/carreras5k.jpg" />
+                
+                <link rel="icon" href="/favicon.png" />
             </Head>
 
             <main className='max-w-4xl overflow-x-hidden m-auto p-3 text-white'>
