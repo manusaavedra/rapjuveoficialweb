@@ -30,7 +30,7 @@ export default function Header() {
                 </nav>
             </div>
             <nav className="flex items-center w-full bg-black justify-center md:hidden overflow-x-scroll scroll-m-0">
-                <ul className="flex items-center gap-4 justify-between py-4 px-2 text-white font-semibold text-md">
+                <ul className="flex items-center gap-4 justify-between py-4 px-4 text-white font-semibold text-md">
                     <li className="min-w-fit">
                         <Link href="/#rapjuve">Sobre Rapjuve</Link>
                     </li>
