@@ -4,11 +4,12 @@ export default function Footer() {
     return (
         <footer className="bg-black text-center p-4 text-white">
             <div className="container px-6 pt-6 mx-auto">
-                <Image className="mx-auto mb-4" src="/Mi-identidad-logo.png" width={100} height={60} alt="mi identidad logo" />
+                <Image className="mx-auto mb-4 w-auto h-auto" src="/Mi-identidad-logo.png" width={100} height={60} alt="mi identidad logo" />
                 <div className="flex justify-center">
                     <a
                         href="https://www.facebook.com/rapjuve/"
                         type="button"
+                        title="Facebook"
                         target="_blank"
                         className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                         data-te-ripple-init
@@ -26,6 +27,7 @@ export default function Footer() {
                     <a
                         href="https://www.instagram.com/rapjuveoficial/"
                         type="button"
+                        title="Instagram"
                         target="_blank"
                         className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                         data-te-ripple-init

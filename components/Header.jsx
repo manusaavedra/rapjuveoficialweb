@@ -7,22 +7,22 @@ export default function Header() {
         <header className="w-full sticky top-0 left-0 z-50">
             <div className="flex md:justify-end items-center bg-gradient-to-r from-[#282851] to-[#3f1754] w-full p-2">
                 <Link href="/">
-                    <Image className="md:hidden" src="/rapjuve-gradient.png?v=323" width={100} height={60} alt="rapjuve mi identidad es Jesus" />
+                    <Image className="md:hidden w-auto h-auto" src="/rapjuve-gradient.png?v=323" width={100} height={60} alt="rapjuve mi identidad es Jesus" />
                 </Link>
                 <nav className="px-4 hidden md:block">
                     <ul className="flex items-center gap-4 text-white">
                         <li>
-                            <a href="https://www.instagram.com/rapjuveoficial/" target="_blank" rel="noreferrer">
+                            <a href="https://www.instagram.com/rapjuveoficial/" title="Instagram" target="_blank" rel="noreferrer">
                                 <FaInstagram size={24} />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/rapjuve/" target="_blank" rel="noreferrer">
+                            <a href="https://www.facebook.com/rapjuve/" title="Facebook" target="_blank" rel="noreferrer">
                                 <FaFacebook size={24} />
                             </a>
                         </li>
                         <li>
-                            <a href="https://web.whatsapp.com/send?phone=59175001584" target="_blank" rel="noreferrer">
+                            <a href="https://web.whatsapp.com/send?phone=59175001584" title="Whatsapp" target="_blank" rel="noreferrer">
                                 <FaWhatsapp  size={24}/>
                             </a>
                         </li>
