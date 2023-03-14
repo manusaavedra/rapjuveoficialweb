@@ -7,10 +7,19 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Rapjuve - Mi identidad es Jesús</title>
-                <meta name="description" content="Retiro Apostólico, Profético Juvenil Rapjuve. Campamento más grande de Sudamérica" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.png" />
+                <title>Rapjuve - Campamento Juvenil Más Grande de Sudamérica. </title>
+                <meta name="title" content="Rapjuve - Campamento Juvenil Más Grande de Sudamérica. " />
+                <meta name="description" content="Rapjuve el campamento cristiano que reúne más de 5 mil jóvenes de distintas partes del mundo. Juegos Militares, carreras y plenarias son una de las actividades de este gran campamento." />
+
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Rapjuve - Campamento Juvenil Más Grande de Sudamérica. " />
+                <meta property="og:description" content="Rapjuve el campamento cristiano que reúne más de 5 mil jóvenes de distintas partes del mundo. Juegos Militares, carreras y plenarias son una de las actividades de este gran campamento." />
+                <meta property="og:image" content="/carreras5k.jpg" />
+
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta property="twitter:title" content="Rapjuve - Campamento Juvenil Más Grande de Sudamérica. " />
+                <meta property="twitter:description" content="Rapjuve el campamento cristiano que reúne más de 5 mil jóvenes de distintas partes del mundo. Juegos Militares, carreras y plenarias son una de las actividades de este gran campamento." />
+                <meta property="twitter:image" content="/carreras5k.jpg" />
             </Head>
 
             <main className='max-w-4xl overflow-x-hidden m-auto p-3 text-white'>
