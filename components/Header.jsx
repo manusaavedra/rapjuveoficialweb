@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { FaInstagram, FaWhatsapp, FaFacebook, FaTshirt } from 'react-icons/fa'
+import { ActiveLink } from './ActiveLink'
 
 export default function Header () {
   return (
@@ -32,16 +34,16 @@ export default function Header () {
       <nav className='flex items-center w-full bg-black justify-center md:hidden overflow-x-scroll scroll-m-0'>
         <ul className='flex items-center gap-4 justify-between py-4 px-4 text-white font-semibold text-md'>
           <li className='min-w-fit'>
-            <Link href='/#rapjuve'>Sobre Rapjuve</Link>
+            <ActiveLink className='px-4 py-2 rounded-md' href='/#rapjuve'>Sobre Rapjuve</ActiveLink>
           </li>
           <li className='min-w-fit'>
-            <Link href='/#activity'>Actividades</Link>
+            <ActiveLink className='px-4 py-2 rounded-md' href='/#activity'>Actividades</ActiveLink>
           </li>
           <li className='min-w-fit'>
-            <Link href='/#faq'>Más frecuentes</Link>
+            <ActiveLink className='px-4 py-2 rounded-md' href='/#faq'>Más frecuentes</ActiveLink>
           </li>
           <li className='min-w-fit'>
-            <Link href='/leaderboard'>Clasificación</Link>
+            <ActiveLink className='px-4 py-2 rounded-md' href='/leaderboard'>Clasificación</ActiveLink>
           </li>
         </ul>
       </nav>
@@ -58,16 +60,16 @@ export default function Header () {
           </Link>
           <ul className='flex items-center gap-4 py-4 text-white font-semibold'>
             <li>
-              <Link href='/#rapjuve'>Sobre Rapjuve</Link>
+              <ActiveLink className='px-4 py-2 rounded-md' href='/#rapjuve'>Sobre Rapjuve</ActiveLink>
             </li>
             <li>
-              <Link href='/#activity'>Actividades</Link>
+              <ActiveLink className='px-4 py-2 rounded-md' href='/#activity'>Actividades</ActiveLink>
             </li>
             <li>
-              <Link href='/#faq'>Más frecuentes</Link>
+              <ActiveLink className='px-4 py-2 rounded-md' href='/#faq'>Más frecuentes</ActiveLink>
             </li>
             <li>
-              <Link href='/leaderboard'>Clasificación</Link>
+              <ActiveLink className='px-4 py-2 rounded-md' href='/leaderboard'>Clasificación</ActiveLink>
             </li>
           </ul>
         </div>
