@@ -41,7 +41,7 @@ export default function Header() {
                         <Link href="/#faq">Más frecuentes</Link>
                     </li>
                     <li className="min-w-fit">
-                        <Link href={"/escuadrones"}>Clasificación</Link>
+                        <Link href={"/leaderboard"}>Clasificación</Link>
                     </li>
                 </ul>
             </nav>
@@ -67,7 +67,7 @@ export default function Header() {
                             <Link href="/#faq">Más frecuentes</Link>
                         </li>
                         <li>
-                            <Link href={"/escuadrones"}>Clasificación</Link>
+                            <Link href={"/leaderboard"}>Clasificación</Link>
                         </li>
                     </ul>
                 </div>
