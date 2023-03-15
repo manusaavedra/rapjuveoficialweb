@@ -57,7 +57,7 @@ export async function getServerSideProps ({ query }) {
     database: process.env.DB_NAME,
   })
 
-  const [rows] = await connection.query('SELECT * FROM `leaderboard` WHERE `score` ORDER BY score DESC')
+  const [rows] = await connection.query('SELECT * FROM `leaderboard` WHERE `score` ORDER BY `score` DESC')
 
   return {
     props: {
