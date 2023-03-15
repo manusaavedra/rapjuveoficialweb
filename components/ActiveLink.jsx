@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 export function ActiveLink ({ children, className, href }) {
@@ -9,8 +10,8 @@ export function ActiveLink ({ children, className, href }) {
   }
 
   return (
-    <a href={href} onClick={handleClick} className={`${router.asPath === href ? 'bg-purple-500' : 'bg-transparent'} ${className}`}>
+    <Link href={href} onClick={handleClick} className={`${router.asPath === href ? 'bg-purple-500' : 'bg-transparent'} ${className}`}>
       {children}
-    </a>
+    </Link>
   )
 }
