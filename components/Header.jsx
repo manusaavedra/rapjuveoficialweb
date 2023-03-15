@@ -30,6 +30,9 @@ export default function Header () {
           </ul>
         </nav>
       </div>
+
+      {/* Mobile Menu */}
+
       <nav className='flex items-center w-full bg-black justify-center md:hidden overflow-x-scroll scroll-m-0'>
         <ul className='flex items-center gap-4 justify-between py-4 px-4 text-white font-semibold text-md'>
           <li className='min-w-fit'>
@@ -46,6 +49,9 @@ export default function Header () {
           </li>
         </ul>
       </nav>
+
+      {/* Mobile Menu */}
+
       <nav className='bg-black w-full items-start justify-between hidden md:flex'>
         <div className='flex items-start'>
           <Link href='/'>
