@@ -34,7 +34,7 @@ export default function Header () {
       {/* Mobile Menu */}
 
       <nav className='flex items-center w-full bg-black justify-center md:hidden overflow-x-scroll scroll-m-0'>
-        <ul className='flex items-center gap-4 justify-between py-4 px-4 text-white font-semibold text-md'>
+        <ul className='flex items-center gap-4 justify-start py-4 px-4 text-white font-semibold text-md'>
           <li className='min-w-fit'>
             <ActiveLink className='px-4 py-2 rounded-md' href='/#rapjuve'>Sobre Rapjuve</ActiveLink>
           </li>
