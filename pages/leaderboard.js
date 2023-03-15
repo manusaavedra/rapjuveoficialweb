@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import IconSquadron from '../components/IconSquadron'
-
 const mysql = require('mysql2/promise')
 
 export default function TeamsGroups ({ leaderboard }) {

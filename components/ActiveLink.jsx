@@ -1,21 +1,17 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-export function ActiveLink ({ children, className, href }) {
-  const router = useRouter()
+export default function ActiveLink ({ className, href, children }) {
+  const route = useRouter()
 
   const handleClick = (e) => {
     e.preventDefault()
-    router.push(href)
+    route.push(href)
   }
 
   return (
-    <Link
-      href={href}
-      onClick={handleClick}
-      className={`${router.asPath === href ? 'bg-purple-500' : 'bg-transparent'} ${className}`}
-    >
-      {children}
+    <Link href={href} onClick={handleClick} className={`${className} ${route.asPath === href ? 'bg-fuchsia-500' : 'bg-transparent'}`}>
+        {children}
     </Link>
   )
 }

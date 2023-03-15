@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaInstagram, FaWhatsapp, FaFacebook, FaTshirt } from 'react-icons/fa'
-import { ActiveLink } from './ActiveLink'
+import ActiveLink from './ActiveLink'
 
 export default function Header () {
   return (
