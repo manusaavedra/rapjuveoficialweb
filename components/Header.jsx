@@ -7,7 +7,7 @@ export default function Header () {
   return (
     <header className='w-full sticky top-0 left-0 z-50'>
       <div className='flex md:justify-end items-center bg-gradient-to-r from-[#282851] to-[#3f1754] w-full p-2'>
-        <Link href='/'>
+        <Link className='mx-auto' href='/'>
           <Image className='md:hidden w-auto h-auto' src='/rapjuve-gradient.png?v=323' width={100} height={60} alt='rapjuve mi identidad es Jesus' />
         </Link>
         <nav className='px-4 hidden md:block'>
@@ -33,7 +33,7 @@ export default function Header () {
 
       {/* Mobile Menu */}
 
-      <nav className='flex items-center w-full bg-black justify-center md:hidden overflow-x-scroll scroll-m-0'>
+      <nav className='flex items-center w-full bg-black justify-start md:hidden overflow-x-scroll scroll-m-0'>
         <ul className='flex items-center gap-4 justify-start py-4 px-4 text-white font-semibold text-md'>
           <li className='min-w-fit'>
             <ActiveLink className='px-4 py-2 rounded-md' href='/#rapjuve'>Sobre Rapjuve</ActiveLink>
