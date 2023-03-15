@@ -51,7 +51,6 @@ export default function TeamsGroups({ leaderboard }) {
 }
 
 export async function getServerSideProps({ query }) {
-
     const connection = await mysql.createConnection({
         host: process.env.DB_HOST,
         user: process.env.DB_USER,
