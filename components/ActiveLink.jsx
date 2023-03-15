@@ -10,7 +10,11 @@ export function ActiveLink ({ children, className, href }) {
   }
 
   return (
-    <Link href={href} onClick={handleClick} className={`${router.asPath === href ? 'bg-purple-500' : 'bg-transparent'} ${className}`}>
+    <Link
+      href={href}
+      onClick={handleClick}
+      className={`${router.asPath === href ? 'bg-purple-500' : 'bg-transparent'} ${className}`}
+    >
       {children}
     </Link>
   )
