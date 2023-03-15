@@ -11,7 +11,7 @@ body {
 }
 
 body .background {
-  background: url('/background.jpg') #1d0f1d;
+  background: url('/background.jpg') #0d010d;
   background-blend-mode: darken;
   background-size: cover;
   height: 100vh;

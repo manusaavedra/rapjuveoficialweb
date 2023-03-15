@@ -28,10 +28,9 @@ export default function Home() {
                 <section className='text-white text-center flex flex-col justify-center items-center'>
                     <div className='pt-10 flex flex-col justify-center items-center'>
                         <div className="flex flex-col gap-4 items-center">
-                            <Image src="/camisetaoficial.png" className='w-auto h-auto' priority width={160} height={60} alt="camiseta oficial" />
-                            <Image src="/rapjuve-gradient.png?v=323" className='w-auto h-auto' width={100} height={100} alt="rapjuve mi identidad es Jesus" />
+                            <Image src="/camisetaoficial.png" className='w-auto h-auto' priority width={130} height={60} alt="camiseta oficial" />
                         </div>
-                        <h1 className='text-2xl md:text4xl font-bold my-4 uppercase'>El campamento juvenil más grande de Sudamérica</h1>
+                        <h1 className='text-2xl md:text-5xl font-bold my-4 uppercase'>El campamento juvenil más grande de Sudamérica</h1>
                         <h4 className='md:text-2xl font-semibold italic'>¡Un campo de entrenamiento para la vida!</h4>
                     </div>
                     <div className='flex gap-4 items-center'>
