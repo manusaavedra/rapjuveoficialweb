@@ -25,23 +25,37 @@ export default function TeamsGroups ({ leaderboard }) {
       <h4 className='my-[50px] text-3xl text-white text-center font-black'>Tabla de posiciones</h4>
       <section className='mb-[50px] p-2'>
         <div className='leaderboard max-w-3xl mx-auto text-white rounded-md p-4'>
-          <div className='flex border-b-2  justify-between items-center'>
-            <span className='font-black text-xl text-gray-500'>Escuadrón</span>
-            <p className='font-black text-xl text-gray-500'>Puntos</p>
-          </div>
-          {
-            leaderboard.map((board, index) => (
-              <div className={`flex py-4 px-0 justify-between items-center ${index % 2 === 0 ? 'bg-[rgba(255,255,255,.1)]' : ''}`} key={board.id}>
-                <div className='flex gap-2 justify-between relative'>
-                  <div className='w-16 flex justify-center'>
-                    <IconSquadron team={board.team} />
-                  </div>
-                  <span className='font-semibold text-2xl'>{board.team}</span>
-                </div>
-                <p className='font-black text-3xl px-2'>{board.score}</p>
-              </div>
-            ))
-          }
+          <table className='w-full table-auto'>
+            <thead>
+              <tr>
+                <th className='text-left'>#</th>
+                <th className='text-left'>Escuadrón</th>
+                <th className='text-right'>Puntos</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                leaderboard.map((board, index) => (
+                  <tr key={board.id} className='even:bg-black odd:bg-gray-800'>
+                    <td className='text-left'>
+                      <span className='text-xl font-black'>{index + 1}º</span>
+                    </td>
+                    <td>
+                      <div className='flex gap-2 py-2'>
+                        <div className='w-16 flex justify-center'>
+                          <IconSquadron team={board.team} />
+                        </div>
+                        <span className='font-semibold text-2xl'>{board.team}</span>
+                      </div>
+                    </td>
+                    <td className='text-right'>
+                      <p className='font-black text-3xl'>{board.score}</p>
+                    </td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
         </div>
       </section>
     </>
