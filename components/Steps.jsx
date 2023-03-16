@@ -17,7 +17,7 @@ export default function Steps () {
             1
           </span>
           <span data-te-stepper-head-text-ref
-            className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+            className="text-neutral-500 font-bold after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
             Paso 1
           </span>
         </div>
@@ -36,7 +36,7 @@ export default function Steps () {
             2
           </span>
           <span data-te-stepper-head-text-ref
-            className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+            className="text-neutral-500 after:absolute font-bold after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
             Paso 2
           </span>
         </div>
@@ -55,7 +55,7 @@ export default function Steps () {
             3
           </span>
           <span data-te-stepper-head-text-ref
-            className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+            className="text-neutral-500 after:absolute font-bold after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
             Paso 3
           </span>
         </div>
@@ -82,7 +82,7 @@ export default function Steps () {
             4
           </span>
           <span data-te-stepper-head-text-ref
-            className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+            className="text-neutral-500 after:absolute font-bold after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
             Paso 4
           </span>
         </div>
@@ -100,7 +100,7 @@ export default function Steps () {
             5
           </span>
           <span data-te-stepper-head-text-ref
-            className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+            className="text-neutral-500 after:absolute font-bold after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
             Paso 5
           </span>
         </div>
