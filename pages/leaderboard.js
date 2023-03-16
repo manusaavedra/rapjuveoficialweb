@@ -41,15 +41,15 @@ export default function TeamsGroups ({ leaderboard }) {
                       <span className='text-xl font-black'>{index + 1}º</span>
                     </td>
                     <td>
-                      <div className='flex gap-2 py-2'>
+                      <div className='flex gap-2 py-2 items-center'>
                         <div className='w-16 flex justify-center'>
                           <IconSquadron team={board.team} />
                         </div>
-                        <span className='font-semibold text-2xl'>{board.team}</span>
+                        <span className='font-semibold text-[20px]'>{board.team}</span>
                       </div>
                     </td>
                     <td className='text-right'>
-                      <p className='font-black text-3xl'>{board.score}</p>
+                      <p className='font-black text-2xl'>{board.score}</p>
                     </td>
                   </tr>
                 ))
