@@ -71,6 +71,20 @@ export default function Question () {
             </div>
           </details>
         </div>
+        <div className='py-5'>
+          <details className='group'>
+            <summary className='flex justify-between items-center font-medium cursor-pointer list-none'>
+              <span>¿Cual es la edad mínima para participar?</span>
+              <span className='transition group-open:rotate-180'>
+                <svg fill='none' height='24' shapeRendering='geometricPrecision' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' viewBox='0 0 24 24' width='24'><path d='M6 9l6 6 6-6' />
+                </svg>
+              </span>
+            </summary>
+            <div className='text-gray-400 mt-3 group-open:animate-fadeIn'>
+              <h4 className="text-xl"><b>14 años</b> es la edad mínima para participar.</h4>
+            </div>
+          </details>
+        </div>
       </div>
     </div>
   )
