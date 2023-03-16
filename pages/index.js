@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { FaTshirt, FaSpotify, FaFileDownload } from 'react-icons/fa'
 import ActivityGallery from '../components/Activitys'
 import Question from '../components/Faq'
+import Steps from '../components/Steps'
 
 export default function Home () {
   return (
@@ -90,9 +91,14 @@ export default function Home () {
           <ActivityGallery />
         </section>
 
+        <section className='mt-[120px] w-full flex flex-col items-center'>
+          <Steps />
+        </section>
+
         <section id='faq' className='mt-[120px] w-full flex flex-col items-center'>
           <Question />
         </section>
+
       </main>
     </>
   )
